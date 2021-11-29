@@ -1,0 +1,105 @@
+body {
+			background: #ffd;
+			font-family: 'Crimson Text', serif;
+			font-size: 20px;
+			color:blue;
+			max-width: 1024px;
+			margin: auto;
+
+		}
+			.container{
+				width: 70%;
+				margin: auto;
+				margin-bottom: 50px;
+
+			}
+			.logo{
+				float: right;
+				margin-left: 20px;
+			}
+			.welcome_pic{
+				float: left;
+				margin-right: 20px;
+			}
+			h1{color:#00008B; text-align: center;}
+			h2{text-align: center;}
+			table{width: 600px; margin:auto;}
+			/*ul{width:300px; margin:auto;}*/
+			table tr td:first-child {
+				text-align: right;
+			}
+
+			/*#exixtingUser{
+				display: none;
+
+			}*/
+			.show{
+				display:block !important;
+
+			}
+			.hide{
+				display: none;
+			}
+			.navigation{
+				background-color: #ccc; 
+				margin-bottom: 20px;
+			}
+			.navigation ul li {
+				float:left;
+				width: 33%;
+				display:block;
+
+			}
+			.navigation ul{
+				list-style: none;
+				margin:0;
+				padding:0;
+				display:block;
+			}
+			.navigation ul li  a {
+				text-align: center;
+				display:block;
+				padding: 10px;
+				color: #00008B;
+				text-decoration: none;
+				font-style: normal;
+
+			}
+			.clear{
+				clear : both;
+			}
+
+
+			.products_tbl{
+				width: 100%; 
+				margin:auto;
+				border-collapse: collapse;
+				color:#000;
+			}
+			.products_tbl th {
+				border: 1px solid #ccc;
+				font-size: 16px;
+				padding: 5px;
+				background: #eee;
+
+
+			}
+			.products_tbl td {
+				border: 1px solid #ccc;
+				text-align: left;
+				font-size: 14px;
+				font-family: "san serif";
+				padding: 5px;
+			}
+			.products_tbl td img{
+				width: 100px;
+			}
+			.buttons{
+				text-align: right;
+			}
+			.buttons input {
+				cursor: pointer;
+			}
+			.address {
+				float: left;
+			}

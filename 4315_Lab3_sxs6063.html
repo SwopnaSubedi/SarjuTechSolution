@@ -1,0 +1,80 @@
+
+<!-- Sapana Subedi 1001556061 -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> Sarju Tech Solutions - Products </title>
+		<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+<link href="./styles.css" rel="stylesheet">
+
+	</head>
+
+	<body onload="getProducts('prod_name')">
+	<div class = "container">
+	<h1>
+		 Sarju Tech Solutions 
+
+	</h1>
+	<h2> Our Products </h2>
+
+	<div class="navigation">
+		<ul> 
+			<li> <a href="4315_Lab2_sxs6063.html">  Home </a> </li> 
+			<li> <a href="4315_Lab3_sxs6063.html">  Products </a> </li> 
+			<li> <a href="contact_sxs6063.html">  Contact Us </a> </li> 
+
+		</ul>
+		<div class = "clear"> </div>
+	</div>	
+	<div>
+
+		<form>
+
+	<table class="products_tbl">
+		<thead>
+		<tr>
+			<th>
+				<a href="#" onclick="sortBy('id',event); return false;"> Product ID</a>
+
+			</th>
+			<th>
+				Product Image
+			</th>
+			<th>
+				<a href="#" onclick="sortBy('prod_name',event); return false;">Product Name</a>
+			</th>
+			<th>
+				Product Description
+			</th>
+			<th>
+				<a href="#" onclick="sortBy('price',event); return false;">Product Price</a>
+			</th>
+			<th>
+				Quantity
+			</th>
+		</tr>
+	</thead>
+	<tbody id="products">
+		
+	</tbody>
+	</table> 
+
+	<div class="buttons">
+		<input type="submit" name="submit" onclick="return submitForm()" value="Submit"> 
+		<input type="reset" name="reset" onclick="return resetForm()" value="Reset">
+	</div>
+
+	</form>
+
+	</div>
+
+	
+
+</div>
+<script src="./script.js"></script>
+	</body>
+
+</html>
+

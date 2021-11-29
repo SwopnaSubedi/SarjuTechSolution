@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "id": 1001,
+      "prod_name": "Accounting Tally",
+      "description": "This is accounting software which keeps up to date of the accounting reports in the company",
+      "price": 45,
+      "image": "tally.png"
+    },
+    {
+      "id": 1002,
+      "prod_name": "Swostika",
+      "description": "This is accounting software which keeps up to date of the accounting reports in the company",
+      "price": 65,
+      "image": "swostika.png"
+    },
+    {
+      "id": 1003,
+      "prod_name": "Your Tax calculator",
+      "description": "This is Tax claculating software which helps to calculate tax related expenses and reports in the company",
+      "price": 50,
+      "image": "taxCalculator.png"
+    },
+    {
+      "id": 1004,
+      "prod_name": "Domain Registration",
+      "description": "This is service to maintain existing domain and new domain registration for the company",
+      "price": 122,
+      "image": "domain.png"
+    },
+    {
+      "id": 1005,
+      "prod_name": "Website Maintenance",
+      "description": "website maintenance and update to the existing software",
+      "price": 505,
+      "image": "webMaintenance.png"
+    },
+    {
+      "id": 1006,
+      "prod_name": "Creating new Websites",
+      "description": "we create new websites for your growing business, try it for existing business also",
+      "price": 80,
+      "image": "newWebsite.png"
+    },
+    {
+      "id": 1007,
+      "prod_name": "IT Consultation",
+      "description": "We provide consultation and demo on what your business need as per what we see",
+      "price": 120,
+      "image": "consultation.png"
+    },
+    {
+      "id": 1008,
+      "prod_name": "Antivirus Software",
+      "description": "let virus on your devices be our problems! We sell genuine antivirus software as per your needs",
+      "price": 260,
+      "image": "antivirus.png"
+    },
+    {
+      "id": 1009,
+      "prod_name": "Computer hardware",
+      "description": "We sell parts those you dont have to throw whole devices for that tiny things",
+      "price": 420,
+      "image": "hardware.png"
+    },
+    {
+      "id": 1010,
+      "prod_name": "Computer software and maintenance",
+      "description": "we sell genuine software and maintain it ",
+      "price": 310,
+      "image": "Software.png"
+    },
+    {
+      "id": 1011,
+      "prod_name": "Buy our yearly package",
+      "description": "This is accounting software which keeps up to date of the accounting reports in the company",
+      "price": 250,
+      "image": "package.png"
+    }
+  ]
+}
